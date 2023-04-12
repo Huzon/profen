@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+// COLORS
+$primary: #00ADEE;
+$darkPrimary: #498CB1;
+$lightPrimary: #D9EAF4;
+$accent: #EC1C24;
+$darkAccent: #99070E;
+$lightAccent: #E99393;
+$errorBG: #FFE1DD;
+$successBG: #E3FFDA;
+$lightText: #cecece;
+
+.accent {
+    color: $accent;
+}
+
+.primary {
+    color: $primary;
+}
+
+// clearing theme
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    padding: 0;
+
+    font: {
+        family: 'Roboto', sans-serif;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+    
+}
+
+.highlight {
+    color: $accent;
+}
+
+
+//TEXT THEME
+h1 {
+    font: {
+        size: 2.5rem;
+        weight: 900;
+    }
+}

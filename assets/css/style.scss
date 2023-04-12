@@ -1,0 +1,74 @@
+@import "theme";
+@import "components";
+
+// HOME
+.title {
+
+    font: {
+        style: italic;
+        weight: 900;
+    }
+}
+
+.main-text {
+    color: #fff;
+    width: 700px;
+}
+
+#home-1 {
+    padding: 50px;
+
+
+    button {
+        position: absolute;
+        bottom: 0;
+        left: 100px;
+
+    }
+}
+
+#home-2 {
+
+
+
+    .data {
+        margin: auto;
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        // grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        gap: 30px;
+        text-align: justify;
+        color: #fff;
+
+        .info {
+            // background: rgba(0, 0, 0, 0.24);
+
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 50px 10px;
+
+            h5 {
+                // color: $accent;
+                font-weight: 400;
+            }
+        }
+
+        h2,
+        h5 {
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+        }
+
+        h5 {
+            font-size: 1.25rem;
+
+            font-weight: 300;
+        }
+    }
+}
